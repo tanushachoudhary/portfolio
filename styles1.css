@@ -1,0 +1,70 @@
+html{
+    font-size: 12px;
+}
+body{
+    background: url("sunset-silhouettes-trees-mountains-generative-ai.jpg");
+    background-size: cover;
+}
+.main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 40vw;
+    max-height: 70vh;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh auto;
+    padding: 30px;
+    border: 1px solid white;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+}
+h1{
+    color: aliceblue;
+    font-family: Rubik Doodle Shadow;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+}
+button{
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    font-family: Poppins;
+    font-weight: 600;
+    color: rgb(19, 0, 95);
+    border: none;
+    font-size: 1.4rem;
+    width:20vw;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.9s;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    margin-bottom: 16px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: transform .2s; 
+}
+button:hover{
+    transform: scale(1.3);   
+}
+@media screen and (max-width: 768px) {
+    .main {
+        max-width: 80vw;
+    }
+
+    button {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+        padding: 15px;
+    }
+
+    button {
+        width: 50vw;
+    }
+}
