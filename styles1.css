@@ -14,22 +14,22 @@ body{
     gap: 30px;
     justify-content: center;
     align-items: center;
-    margin: 10vh auto;
+    margin: 7vh auto;
     padding: 30px;
 }
 h1{
-    color: aliceblue;
+    color: #2D3250;
     font-family: Rubik Doodle Shadow;
-    font-size: 3.3rem;
+    font-size: 3.7rem;
     font-weight: 900;
     margin-top: 65px;
 }
 button{
     border-radius: 10px;
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 10px black;
     font-family: Poppins;
     font-weight: 600;
-    color: rgb(19, 0, 95);
+    color: #3559E0;
     border: none;
     font-size: 1.4rem;
     width:20vw;
