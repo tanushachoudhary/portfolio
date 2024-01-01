@@ -2,7 +2,7 @@ html{
     font-size: 12px;
 }
 body{
-    background: url("sunset-silhouettes-trees-mountains-generative-ai.jpg");
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
     background-size: cover;
 }
 .main{
@@ -16,16 +16,13 @@ body{
     align-items: center;
     margin: 10vh auto;
     padding: 30px;
-    border: 1px solid white;
-    background-color: transparent;
-    backdrop-filter: blur(4px);
 }
 h1{
     color: aliceblue;
     font-family: Rubik Doodle Shadow;
-    font-size: 3rem;
+    font-size: 3.3rem;
     font-weight: 900;
-    margin: 0;
+    margin-top: 65px;
 }
 button{
     border-radius: 10px;
