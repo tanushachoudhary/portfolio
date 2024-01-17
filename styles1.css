@@ -2,7 +2,7 @@ html{
     font-size: 12px;
 }
 body{
-    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    background-image: url("astronomy-1867616_1280.jpg");
     background-size: cover;
 }
 .main{
@@ -14,22 +14,23 @@ body{
     gap: 30px;
     justify-content: center;
     align-items: center;
-    margin: 7vh auto;
+    margin: 20vh auto;
     padding: 30px;
 }
 h1{
-    color: #2D3250;
+    color: #ecefff;
     font-family: Rubik Doodle Shadow;
     font-size: 4.2rem;
     font-weight: 900;
     margin-top: 10px;
+    text-shadow: 0 7px rgb(10, 94, 131);
 }
 button{
     border-radius: 10px;
     box-shadow: 0 0 10px black;
     font-family: Poppins;
-    font-weight: 600;
-    color: #B80000;
+    font-weight: 900;
+    color: #350063;
     border: none;
     font-size: 1.4rem;
     width:20vw;
