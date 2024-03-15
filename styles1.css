@@ -2,19 +2,17 @@ html{
     font-size: 12px;
 }
 body{
-    background-image: url("blue.jpg");
-    background-size: cover;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
 }
 .main{
     text-align: center;
     display: flex;
     flex-direction: column;
     max-width: 40vw;
-    max-height: 89vh;
     gap: 30px;
     justify-content: center;
     align-items: center;
-    margin: 20vh auto;
+    margin: auto;
     padding: 30px;
 }
 h1{
@@ -22,7 +20,6 @@ h1{
     font-family: 'Rowdies', sans-serif;
     font-size: 4.2rem;
     font-weight: 900;
-    margin-top: 10px;
     text-shadow: 0 7px #000000;
 }
 button{
@@ -30,7 +27,7 @@ button{
     box-shadow: 0 0 10px black;
     font-family: Poppins;
     font-weight: 900;
-    color: #0300B2;
+    color: #6e00b2;
     border: none;
     font-size: 1.4rem;
     width:20vw;
