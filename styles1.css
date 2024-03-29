@@ -1,8 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 html{
     font-size: 12px;
 }
 body{
-    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 25%, #FF1361 67%, #FFF800 100%);
 }
 .main{
     text-align: center;
@@ -21,6 +25,7 @@ h1{
     font-size: 4.2rem;
     font-weight: 900;
     text-shadow: 0 7px #000000;
+    margin: 1.5rem;
 }
 button{
     border-radius: 10px;
